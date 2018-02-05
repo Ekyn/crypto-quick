@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3414379248D417B6D8C2770A /* Pods_Tabele.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BF11731900A0FAA7EBD09E /* Pods_Tabele.framework */; };
+		64107B0220238D3800DA4D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64107B0120238D3800DA4D8E /* Assets.xcassets */; };
+		64107B042023981D00DA4D8E /* CryptoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64107B032023981D00DA4D8E /* CryptoDetailViewController.swift */; };
 		643661AF2015D98A00FE934E /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643661AE2015D98A00FE934E /* CryptoTableViewCell.swift */; };
 		6495CDD220140B9900AB0B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495CDD120140B9900AB0B10 /* AppDelegate.swift */; };
 		6495CDD420140B9900AB0B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495CDD320140B9900AB0B10 /* ViewController.swift */; };
-		6495CDD920140B9900AB0B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6495CDD820140B9900AB0B10 /* Assets.xcassets */; };
 		6495CDDC20140B9900AB0B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6495CDDA20140B9900AB0B10 /* LaunchScreen.storyboard */; };
 		64B283A2201635910028853D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B283A1201635910028853D /* Main.storyboard */; };
 		64B283B62016363E0028853D /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64B283A42016363D0028853D /* SF-Pro-Display-Thin.otf */; };
@@ -31,19 +33,15 @@
 		64B283C52016363E0028853D /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64B283B32016363D0028853D /* SF-Pro-Display-Black.otf */; };
 		64B283C62016363E0028853D /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64B283B42016363D0028853D /* SF-Pro-Display-ThinItalic.otf */; };
 		64B283C72016363E0028853D /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64B283B52016363D0028853D /* SF-Pro-Display-BoldItalic.otf */; };
-		64DA16972016874E00F92270 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA16922016874E00F92270 /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
-		64DA16982016874E00F92270 /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA16932016874E00F92270 /* DGElasticPullToRefreshView.swift */; };
-		64DA16992016874E00F92270 /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA16942016874E00F92270 /* DGElasticPullToRefreshConstants.swift */; };
-		64DA169A2016874E00F92270 /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA16952016874E00F92270 /* DGElasticPullToRefreshExtensions.swift */; };
-		64DA169B2016874E00F92270 /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA16962016874E00F92270 /* DGElasticPullToRefreshLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64107B0120238D3800DA4D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64107B032023981D00DA4D8E /* CryptoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailViewController.swift; sourceTree = "<group>"; };
 		643661AE2015D98A00FE934E /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		6495CDCE20140B9900AB0B10 /* Tabele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabele.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6495CDD120140B9900AB0B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6495CDD320140B9900AB0B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6495CDD820140B9900AB0B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6495CDDB20140B9900AB0B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6495CDDD20140B9900AB0B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64B283A1201635910028853D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -65,11 +63,9 @@
 		64B283B32016363D0028853D /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		64B283B42016363D0028853D /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
 		64B283B52016363D0028853D /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
-		64DA16922016874E00F92270 /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
-		64DA16932016874E00F92270 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
-		64DA16942016874E00F92270 /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
-		64DA16952016874E00F92270 /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
-		64DA16962016874E00F92270 /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		77BF11731900A0FAA7EBD09E /* Pods_Tabele.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabele.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5EF314216A98135074B2B5 /* Pods-Tabele.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabele.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tabele/Pods-Tabele.debug.xcconfig"; sourceTree = "<group>"; };
+		E7FAAC9CC1AB8ED26BC8DFF5 /* Pods-Tabele.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabele.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tabele/Pods-Tabele.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,19 +73,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3414379248D417B6D8C2770A /* Pods_Tabele.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24451A3A301D2F51091EBBE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F5EF314216A98135074B2B5 /* Pods-Tabele.debug.xcconfig */,
+				E7FAAC9CC1AB8ED26BC8DFF5 /* Pods-Tabele.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6495CDC520140B9900AB0B10 = {
 			isa = PBXGroup;
 			children = (
 				6495CDD020140B9900AB0B10 /* Tabele */,
 				6495CDCF20140B9900AB0B10 /* Products */,
-				64DA16912016874E00F92270 /* DGElasticPullToRefresh */,
 				64B283A32016363D0028853D /* Fonts */,
+				24451A3A301D2F51091EBBE7 /* Pods */,
+				9350996082136A2DB7B8332C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,9 +114,10 @@
 				6495CDD120140B9900AB0B10 /* AppDelegate.swift */,
 				6495CDD320140B9900AB0B10 /* ViewController.swift */,
 				643661AE2015D98A00FE934E /* CryptoTableViewCell.swift */,
-				6495CDD820140B9900AB0B10 /* Assets.xcassets */,
-				6495CDDA20140B9900AB0B10 /* LaunchScreen.storyboard */,
+				64107B032023981D00DA4D8E /* CryptoDetailViewController.swift */,
 				64B283A1201635910028853D /* Main.storyboard */,
+				6495CDDA20140B9900AB0B10 /* LaunchScreen.storyboard */,
+				64107B0120238D3800DA4D8E /* Assets.xcassets */,
 				6495CDDD20140B9900AB0B10 /* Info.plist */,
 			);
 			path = Tabele;
@@ -141,16 +149,12 @@
 			path = Tabele/Fonts;
 			sourceTree = "<group>";
 		};
-		64DA16912016874E00F92270 /* DGElasticPullToRefresh */ = {
+		9350996082136A2DB7B8332C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64DA16922016874E00F92270 /* DGElasticPullToRefreshLoadingViewCircle.swift */,
-				64DA16932016874E00F92270 /* DGElasticPullToRefreshView.swift */,
-				64DA16942016874E00F92270 /* DGElasticPullToRefreshConstants.swift */,
-				64DA16952016874E00F92270 /* DGElasticPullToRefreshExtensions.swift */,
-				64DA16962016874E00F92270 /* DGElasticPullToRefreshLoadingView.swift */,
+				77BF11731900A0FAA7EBD09E /* Pods_Tabele.framework */,
 			);
-			path = DGElasticPullToRefresh;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6495CDE020140B9900AB0B10 /* Build configuration list for PBXNativeTarget "Tabele" */;
 			buildPhases = (
+				72B27AC364DF8336E46FBBC6 /* [CP] Check Pods Manifest.lock */,
 				6495CDCA20140B9900AB0B10 /* Sources */,
 				6495CDCB20140B9900AB0B10 /* Frameworks */,
 				6495CDCC20140B9900AB0B10 /* Resources */,
+				5360E40180862A4FEDB50369 /* [CP] Embed Pods Frameworks */,
+				08E800F788EA22691BE3AE51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +221,7 @@
 			files = (
 				64B283BE2016363E0028853D /* SF-Pro-Display-Semibold.otf in Resources */,
 				64B283B92016363E0028853D /* SF-Pro-Display-Light.otf in Resources */,
+				64107B0220238D3800DA4D8E /* Assets.xcassets in Resources */,
 				64B283BD2016363E0028853D /* SF-Pro-Display-Heavy.otf in Resources */,
 				64B283B62016363E0028853D /* SF-Pro-Display-Thin.otf in Resources */,
 				64B283BB2016363E0028853D /* SF-Pro-Display-Bold.otf in Resources */,
@@ -229,7 +237,6 @@
 				6495CDDC20140B9900AB0B10 /* LaunchScreen.storyboard in Resources */,
 				64B283C12016363E0028853D /* SF-Pro-Display-Ultralight.otf in Resources */,
 				64B283C42016363E0028853D /* SF-Pro-Display-BlackItalic.otf in Resources */,
-				6495CDD920140B9900AB0B10 /* Assets.xcassets in Resources */,
 				64B283B72016363E0028853D /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
 				64B283C32016363E0028853D /* SF-Pro-Display-LightItalic.otf in Resources */,
 				64B283C22016363E0028853D /* SF-Pro-Display-UltralightItalic.otf in Resources */,
@@ -238,18 +245,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08E800F788EA22691BE3AE51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tabele/Pods-Tabele-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5360E40180862A4FEDB50369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tabele/Pods-Tabele-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DGElasticPullToRefresh/DGElasticPullToRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tabele/Pods-Tabele-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72B27AC364DF8336E46FBBC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabele-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6495CDCA20140B9900AB0B10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DA169A2016874E00F92270 /* DGElasticPullToRefreshExtensions.swift in Sources */,
-				64DA16982016874E00F92270 /* DGElasticPullToRefreshView.swift in Sources */,
-				64DA169B2016874E00F92270 /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				64107B042023981D00DA4D8E /* CryptoDetailViewController.swift in Sources */,
 				6495CDD420140B9900AB0B10 /* ViewController.swift in Sources */,
-				64DA16992016874E00F92270 /* DGElasticPullToRefreshConstants.swift in Sources */,
 				6495CDD220140B9900AB0B10 /* AppDelegate.swift in Sources */,
-				64DA16972016874E00F92270 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
 				643661AF2015D98A00FE934E /* CryptoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +436,7 @@
 		};
 		6495CDE120140B9900AB0B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5EF314216A98135074B2B5 /* Pods-Tabele.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +452,7 @@
 		};
 		6495CDE220140B9900AB0B10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FAAC9CC1AB8ED26BC8DFF5 /* Pods-Tabele.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

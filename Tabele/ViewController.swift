@@ -7,8 +7,10 @@
 
 import UIKit
 import Foundation
+import DGElasticPullToRefresh
 
-struct cryptoJsonStruct: Codable {
+struct cryptoJsonStruct: Codable
+{
     let btc: toEurStruct
     let eth: toEurStruct
     let bcn: toEurStruct
@@ -17,7 +19,8 @@ struct cryptoJsonStruct: Codable {
     let xmr: toEurStruct
     let xrp: toEurStruct
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case btc = "BTC"
         case eth = "ETH"
         case bcn = "BCN"
@@ -28,13 +31,18 @@ struct cryptoJsonStruct: Codable {
     }
 }
 
-struct toEurStruct: Codable {
+struct toEurStruct: Codable
+{
     let eur: Double
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey
+    {
         case eur = "EUR"
     }
 }
+
+var fullNames = ["Bitcoin", "Ethereum", "Bytecoin", "Dashcoin", "Dogecoin", "Monero", "Ripple"]
+var myIndex = 0
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
@@ -50,8 +58,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //required arrays to work with data - MUST be the same as the name of the images in Assets.xcassets folder to work properly.
     var currency = ["BTC", "ETH", "BCN", "DASH", "DOGE", "XMR", "XRP"]
     var currencyFullName = ["Bitcoin", "Ethereum", "Bytecoin", "Dashcoin", "Dogecoin", "Monero", "Ripple"]
-    var currencyStringArray = [String]()
-    
+    var currencyStringArray = [String]()    
     
     override func viewDidLoad()
     {
@@ -89,7 +96,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         print(currencyStringArray.count)
         cell.backgroundColor = UIColor.black
         return cell
-        
     }
     
     public func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool
@@ -109,6 +115,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         currencyFullName.insert(item2, at: destinationIndexPath.row)
         currency.remove(at: sourceIndexPath.row)
         currency.insert(item1, at: destinationIndexPath.row)
+    }
+    
+    // func that handles the click on a specific cell.
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "toDetailView", sender: self)
+        
     }
     
     override func loadView()
@@ -166,7 +180,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 self.currencyStringArray.append(dogeString)
                 self.currencyStringArray.append(xmrString)
                 self.currencyStringArray.append(xrpString)
-                
             }
                 
             catch let err {
