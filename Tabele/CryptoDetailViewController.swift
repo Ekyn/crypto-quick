@@ -11,7 +11,7 @@ import Charts
 
 struct HistoricalData: Codable
 {
-    let bpi: [String: Double]
+    let bpi: [String : Double]
     
     enum CodingKeys: String, CodingKey
     {
@@ -38,9 +38,9 @@ class CryptoDetailViewController: UIViewController
         coinNameBig.text? = fullNames[myIndex]
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool)
+    {
         super.viewDidAppear(true)
-        
         //print(doubles.count)
         updateGraph()
     }
@@ -60,8 +60,6 @@ class CryptoDetailViewController: UIViewController
         chtChart.rightAxis.labelTextColor = NSUIColor.white
         chtChart.rightAxis.enabled = false
         chtChart.xAxis.labelTextColor = NSUIColor.white
-       
-       // chtChart.setNeedsDisplay()
         
         var lineChartEntry = [ChartDataEntry]()
         
@@ -89,7 +87,7 @@ class CryptoDetailViewController: UIViewController
         chtChart.xAxis.drawGridLinesEnabled = false
         chtChart.leftAxis.drawGridLinesEnabled = false
         chtChart.data = data
-        chtChart.chartDescription?.text = "descriptionNNnn"
+        chtChart.chartDescription?.text = "Value"
         
         for set in chtChart.data!.dataSets as! [LineChartDataSet] {
             set.drawFilledEnabled = !set.drawFilledEnabled
@@ -104,7 +102,7 @@ class CryptoDetailViewController: UIViewController
                 do {
                     
                     let jsonDecoder = JSONDecoder()
-                    
+
                     let responseModel = try jsonDecoder.decode(HistoricalData.self, from: data!)
                     
                     let formatter = DateFormatter()

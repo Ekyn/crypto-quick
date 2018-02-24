@@ -63,19 +63,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         //increase the tableView height to get a little more space in a cell to work with.
         tableView.rowHeight = 85
         tableView.estimatedRowHeight = 85
         tableView.backgroundColor = UIColor.black
         fetchData()
-    }
-    
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // returns the number of rows (INT) in UITableView by counting the number of elements in currencyStringArray.
@@ -122,7 +114,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         myIndex = indexPath.row
         performSegue(withIdentifier: "toDetailView", sender: self)
-        
     }
     
     override func loadView()
